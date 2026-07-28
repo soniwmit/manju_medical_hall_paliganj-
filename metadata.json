@@ -1,0 +1,6 @@
+{
+  "name": "Manju Medical Hall",
+  "description": "Trusted Medical Store in Paliganj for genuine medicines, healthcare products, baby care, surgical items and WhatsApp order support.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

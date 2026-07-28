@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #F8FAFC;
+    color: #1E293B;
+  }
+}
+
+.bg-emerald-brand {
+  background-color: #0A8F6A;
+}
+
+.text-emerald-brand {
+  color: #0A8F6A;
+}
+
+.border-emerald-brand {
+  border-color: #0A8F6A;
+}
+
+.hover\:bg-emerald-brand-dark:hover {
+  background-color: #087a5a;
+}
