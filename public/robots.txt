@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://manju-medical-hall-paliganj.vercel.app/sitemap.xml

@@ -29,6 +29,17 @@ app.get("/api/health", (req, res) => {
   });
 });
 
+// Sitemap & Robots.txt static serving
+app.get("/sitemap.xml", (req, res) => {
+  res.header("Content-Type", "application/xml");
+  res.sendFile(path.join(process.cwd(), "public", "sitemap.xml"));
+});
+
+app.get("/robots.txt", (req, res) => {
+  res.header("Content-Type", "text/plain");
+  res.sendFile(path.join(process.cwd(), "public", "robots.txt"));
+});
+
 // AI Assistant Endpoint
 app.post("/api/ai-assist", async (req, res) => {
   try {
