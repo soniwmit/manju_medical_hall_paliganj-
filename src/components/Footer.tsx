@@ -193,7 +193,7 @@ export default function Footer({ setCurrentPage, onOpenOrderModal, onOpenSearchM
 
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4 pt-2 border-t border-slate-800">
             <p className="text-slate-400">
-              © {new Date().getFullYear()} <span className="text-white font-semibold">{BUSINESS_INFO.name}</span>. All rights reserved. • Indra Nagar More, Paliganj | <a href="https://main.webmakerit.com" target="_blank" rel="noopener noreferrer" className="text-emerald-400 hover:underline font-semibold">Developed by WMIT</a>
+              © {new Date().getFullYear()} <span className="text-white font-semibold">{BUSINESS_INFO.name}</span>. All rights reserved. • Indra Nagar More, Paliganj |  <a href="#" class="wmit-popup-trigger">Developed by WMIT</a>
             </p>
 
             <div className="flex items-center gap-6 text-xs flex-wrap justify-center">
